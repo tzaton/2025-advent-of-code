@@ -9,7 +9,7 @@ for num_range in Path(__file__).parent.joinpath("input.txt").read_text().split("
         print(num)
 
         num_len = len(str(num))
-        if str(num)[:int(num_len/2)] == str(num)[int(num_len/2):]:
+        if str(num)[: int(num_len / 2)] == str(num)[int(num_len / 2) :]:
             print(f"{num} is invalid")
             invalid.append(num)
 

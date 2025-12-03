@@ -15,7 +15,7 @@ for move in Path(__file__).parent.joinpath(("input.txt")).read_text().strip().sp
         position -= amount
         if position < 0:
             position = 100 + position
-        
+
         if position > old_position and old_position != 0 and position != 0:
             at_zero += 1
 
@@ -23,10 +23,10 @@ for move in Path(__file__).parent.joinpath(("input.txt")).read_text().strip().sp
         position += amount
         if position > 99:
             position = position - 100
-        
+
         if position < old_position and old_position != 0 and position != 0:
             at_zero += 1
-    
+
     print(f"New position: {position}")
 
     at_zero += amount_total // 100
