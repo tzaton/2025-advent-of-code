@@ -6,7 +6,7 @@ for num_range in Path(__file__).parent.joinpath("input.txt").read_text().split("
     start, end = num_range.split("-")
 
     for num in range(int(start), int(end) + 1):
-        # print(num)
+        print(num)
 
         num_len = len(str(num))
 

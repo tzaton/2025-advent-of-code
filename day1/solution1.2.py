@@ -3,7 +3,7 @@ from pathlib import Path
 position = 50
 at_zero = 0
 
-for i, move in enumerate(Path(__file__).parent.joinpath(("input")).read_text().strip().splitlines()):
+for move in Path(__file__).parent.joinpath(("input.txt")).read_text().strip().splitlines():
     direction = move[0]
     amount_total = int(move[1:])
     amount = int(move[1:]) % 100
