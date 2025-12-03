@@ -1,0 +1,7 @@
+# Advent of Code 2025 🎄
+
+|Day|Solutions|🎅|
+|-----|------|------|
+|[1](https://adventofcode.com/2025/day/1)|[Part 1](day1/solution1.1.py)|[Part 2](day1/solution1.2.py)|
+|[2](https://adventofcode.com/2025/day/2)|[Part 1](day2/solution2.1.py)|[Part 2](day2/solution2.2.py)|
+|[3](https://adventofcode.com/2025/day/3)|[Part 1](day3/solution3.1.py)|[Part 2](day3/solution3.2.py)|
