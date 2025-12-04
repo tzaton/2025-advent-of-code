@@ -30,6 +30,8 @@ while True:
         break
     diagram = marked_to_remove
 
-print("\n".join(["".join(str(cell) for cell in row) for row in marked_to_remove]).replace("0", ".").replace("1", "@"))
+output = "\n".join(["".join(str(cell) for cell in row) for row in marked_to_remove]).replace("0", ".").replace("1", "@")
+print(output)
 
 print(f"Total rolls removed: {total}")
+Path(__file__).parent.joinpath("output4.2.txt").write_text(output)

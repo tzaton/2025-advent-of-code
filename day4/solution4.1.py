@@ -1,5 +1,5 @@
-from pathlib import Path
 from copy import deepcopy
+from pathlib import Path
 
 diagram = Path(__file__).parent.joinpath(("input.txt")).read_text().replace(".", "0").replace("@", "1").splitlines()
 diagram = [[int(cell) for cell in row] for row in diagram]
@@ -24,6 +24,8 @@ for i, row in enumerate(diagram):
             total += 1
             marked_to_remove[i][j] = "x"
 
-print("\n".join(["".join(str(cell) for cell in row) for row in marked_to_remove]).replace("0", ".").replace("1", "@"))
+output = "\n".join(["".join(str(cell) for cell in row) for row in marked_to_remove]).replace("0", ".").replace("1", "@")
+print(output)
 
 print(f"Total rolls removed: {total}")
+Path(__file__).parent.joinpath("output4.1.txt").write_text(output)
