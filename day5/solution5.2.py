@@ -7,7 +7,7 @@ id_ranges.sort()
 
 non_overlapping = []
 
-for i, id_range in enumerate(id_ranges):
+for id_range in id_ranges:
     if not non_overlapping:
         non_overlapping.append(id_range)
         continue
