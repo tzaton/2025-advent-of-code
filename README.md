@@ -8,4 +8,7 @@
 |[4](https://adventofcode.com/2025/day/4)|[Part 1](day4/solution4.1.py)|[Part 2](day4/solution4.2.py)|
 |[5](https://adventofcode.com/2025/day/5)|[Part 1](day5/solution5.1.py)|[Part 2](day5/solution5.2.py)|
 |[6](https://adventofcode.com/2025/day/6)|[Part 1](day6/solution6.1.py)|[Part 2](day6/solution6.2.py)|
-|[7](https://adventofcode.com/2025/day/7)|[Part 1](day7/solution7.1.py)||
+|[7](https://adventofcode.com/2025/day/7)|[Part 1](day7/solution7.1.py)|[Part 2](day7/solution7.2.py)|
+|[8](https://adventofcode.com/2025/day/8)|||
+|[9](https://adventofcode.com/2025/day/9)|[Part 1](day9/solution9.1.py)||
+|[10](https://adventofcode.com/2025/day/10)|[Part 1](day10/solution10.1.py)||
