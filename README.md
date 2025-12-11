@@ -12,4 +12,4 @@
 |[8](https://adventofcode.com/2025/day/8)|||
 |[9](https://adventofcode.com/2025/day/9)|[Part 1](day9/solution9.1.py)||
 |[10](https://adventofcode.com/2025/day/10)|[Part 1](day10/solution10.1.py)||
-|[11](https://adventofcode.com/2025/day/11)|[Part 1](day11/solution11.1.py)||
+|[11](https://adventofcode.com/2025/day/11)|[Part 1](day11/solution11.1.py)|[Part 2](day11/solution11.2.py)|

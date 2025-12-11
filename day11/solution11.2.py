@@ -6,18 +6,17 @@ data = {line.split(":")[0]: line.split(":")[1].split() for line in data}
 
 
 @cache
-def count_paths(start: str, end: str) -> int:
+def count_paths(start: str, end: str, go_through: frozenset[str]) -> int:
     if start == end:
-        return 1
+        return int(go_through.issubset({start}))
 
     total = 0
 
     for neighbor in data[start]:
-        total += count_paths(neighbor, end)
+        total += count_paths(neighbor, end, frozenset(go_through - {neighbor}))
 
     return total
 
 
-result = count_paths("you", "out")
-
+result = count_paths("svr", "out", frozenset({"dac", "fft"}))
 print(f"Number of different paths: {result}")
